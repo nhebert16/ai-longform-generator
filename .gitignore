@@ -1,0 +1,36 @@
+# Secrets — never commit
+.env
+youtube_secrets.json
+youtube_token.json
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Generated output / runtime data
+output/
+logs/
+*.db
+*.log
+*TEMP_MPY*
+
+# Media assets (bring your own — see assets/README.md)
+assets/**/*.mp4
+assets/**/*.mp3
+assets/**/*.wav
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.ttf
+assets/cards/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
